@@ -51,6 +51,15 @@
                             <arguments>run build-jar</arguments>
                         </configuration>
                     </execution> -->
+                    <execution>
+                        <id>start-angular</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>run start</arguments>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
